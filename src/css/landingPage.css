@@ -1,0 +1,27 @@
+.hero {
+    /* border: 2px solid red; */
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 50px;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://img.freepik.com/free-photo/abstract-flowing-neon-wave-background_53876-101942.jpg?semt=ais_hybrid&w=740&q=80") no-repeat fixed center;
+    background-size: cover;
+    color: white;
+}
+
+.landingPage-title-div {
+    font-size: 100px;
+    font-weight: 600;
+}
+
+.get-started-btn {
+    border: 2px solid white;
+    border-radius: 8px;
+    text-decoration: none;
+    color: white;
+    font-size: 32px;
+    padding: 6px 20px;
+    text-align: center;
+}
