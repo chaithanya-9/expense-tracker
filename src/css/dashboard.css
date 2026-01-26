@@ -1,0 +1,13 @@
+.header-title {
+    border: 2px solid red;
+    width: 100%;
+    min-height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 60px;
+    font-weight: 600;
+}
