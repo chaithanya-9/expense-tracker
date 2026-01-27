@@ -1,4 +1,4 @@
-import { logo } from "../assets/save-some-header-logo.png"
+import logo from "../assets/save-some-header-logo-2.png"
 import "../css/dashboard.css";
 
 function Header() {
@@ -11,7 +11,7 @@ function Header() {
             </div>
 
             <div className="header-logo">
-                <img src="logo" alt="not found" />
+                <img src={logo} alt="not found" />
             </div>
         </div>
 
