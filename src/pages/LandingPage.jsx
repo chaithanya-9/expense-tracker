@@ -5,15 +5,15 @@ import "../css/index.css";
 
 function LandingPage() {
     return (
-        <div className="hero">
-            <div className="landingPage-title-div">
+        <div className="landing-page-hero">
+            <div className="landing-page-title-div">
                 <p>SAVE SOME</p>
             </div>
 
             <Link to="/dashboard" className="btn get-started-btn">
                 Get Started
             </Link>
-        </div>)
-}
+        </div>);
+};
 
 export default LandingPage;

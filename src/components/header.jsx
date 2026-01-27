@@ -1,11 +1,11 @@
-import logo from "../assets/save-some-header-logo-2.png"
+import logo from "../assets/save-some-header-logo-2.png";
 import "../css/dashboard.css";
 
 function Header() {
     return (
         <div className="header">
-            <div className="header-title">
-                <p className="title">
+            <div className="header-title-div">
+                <p className="header-title">
                     SAVE SOME
                 </p>
             </div>
@@ -16,6 +16,6 @@ function Header() {
         </div>
 
     );
-}
+};
 
 export default Header;

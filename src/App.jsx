@@ -9,7 +9,7 @@ function App() {
             <Route path="/" element={<LandingPage />} />
             <Route path="/dashboard" element={<Dashboard />} />
         </Routes>
-    )
-}
+    );
+};
 
-export default App
+export default App;

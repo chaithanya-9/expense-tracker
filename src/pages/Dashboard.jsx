@@ -1,10 +1,16 @@
-import Header from "../components/header";
+import Header from "../components/Header.jsx";
+import Hero from "../components/hero.jsx";
+import "../css/dashboard.css";
 
 function Dashboard() {
     return (
-        <Header />
+        <>
+            <Header />
+            <Hero />
+        </>
+
     );
 
-}
+};
 
 export default Dashboard;
