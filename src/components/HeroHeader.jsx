@@ -5,7 +5,7 @@ function HeroHeader() {
                 <input type="text" placeholder="Title" />
             </div>
             <div className="amount-div ">
-                <input type="number" placeholder="Amount" />
+                <input type="number" placeholder="Amount" min={0} />
             </div>
             <div className="type-div ">
                 <input type="text" placeholder="Type" />

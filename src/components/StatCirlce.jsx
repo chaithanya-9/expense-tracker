@@ -1,6 +1,6 @@
-function StatCircle({ label, value, color, percentage = 0 }) {
+function StatCircle({ label, value, strokeColor, color, percentage = 0 }) {
     const radius = 100;
-    const strokeWidth = 16;
+    const strokeWidth = 18;
     const circumference = 2 * Math.PI * radius;
     const offset = circumference - (percentage / 100) * circumference;
 
@@ -19,7 +19,7 @@ function StatCircle({ label, value, color, percentage = 0 }) {
                     cx="150"
                     cy="150"
                     r={radius}
-                    stroke={color}
+                    stroke={strokeColor}
                     strokeWidth={strokeWidth}
                     fill="none"
                     strokeDasharray={circumference}
@@ -30,9 +30,9 @@ function StatCircle({ label, value, color, percentage = 0 }) {
             </svg>
             <div className="stat-circle-text">
                 <p className="label-text">{label}</p>
-                <p className="value-text">{value}</p>
+                <p className="value-text" style={color = { color }}>{value}</p>
             </div>
-        </div>
+        </div >
     );
 };
 
