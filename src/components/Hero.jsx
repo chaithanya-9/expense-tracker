@@ -1,5 +1,6 @@
 import HeroHeader from "./HeroHeader";
 import StatCircle from "./StatCirlce";
+import TransactionTable from "./TransactionTable";
 
 function Hero() {
     return (
@@ -28,6 +29,7 @@ function Hero() {
                     percentage={40}
                 />
             </div>
+            <TransactionTable />
         </div>
     );
 };
