@@ -28,7 +28,7 @@ function TransactionTable() {
                 <div>Amount</div>
                 <div>Action</div>
             </div>
-            {transactions.map((txn) => {
+            {transactions.map((txn) => (
                 <TransactionRow
                     id={txn.id}
                     title={txn.title}
@@ -36,7 +36,7 @@ function TransactionTable() {
                     date={txn.date}
                     amount={txn.amount}
                 />
-            })}
+            ))}
         </div>
     );
 };
